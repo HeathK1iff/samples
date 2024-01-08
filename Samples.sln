@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.NullObject", "Sampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Observer", "Samples.Observer\Samples.Observer.csproj", "{FEC08B78-57BF-43A3-8AC4-5EC968D28B4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Mediator", "Samples.Mediator\Samples.Mediator.csproj", "{300F06CE-E8C1-44D5-BDA7-0A653506B146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FEC08B78-57BF-43A3-8AC4-5EC968D28B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC08B78-57BF-43A3-8AC4-5EC968D28B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC08B78-57BF-43A3-8AC4-5EC968D28B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300F06CE-E8C1-44D5-BDA7-0A653506B146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300F06CE-E8C1-44D5-BDA7-0A653506B146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300F06CE-E8C1-44D5-BDA7-0A653506B146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300F06CE-E8C1-44D5-BDA7-0A653506B146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
