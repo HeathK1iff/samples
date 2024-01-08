@@ -1,6 +1,6 @@
 ﻿namespace Samples.Factory
 {
-    public interface DeviceFactory
+    public interface IDeviceFactory
     {
         BaseDevice CreateDevice(string model);
     }

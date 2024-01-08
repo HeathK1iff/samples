@@ -1,33 +1,26 @@
-﻿using NUnit.Framework;
-using Samples;
-using Samples.Factory;
+﻿using Samples.Factory;
 using Samples.Factory.Device;
 using Samples.Factory.Exception;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Samples.Tests
+namespace Samples.Tests.Patterns
 {
     [TestFixture()]
-    public class DeviceFactoryTests
+    public class FactoryTests
     {
         [Test()]
         public void CreateDevice_PutEmptyModel_ThrowArgumentException()
         {
-            DeviceFactory factory = new XiaomiDeviceFactory();
-            
-            Assert.Throws<ArgumentException>(()=>factory.CreateDevice(String.Empty));
+            IDeviceFactory factory = new XiaomiDeviceFactory();
+
+            Assert.Throws<ArgumentException>(() => factory.CreateDevice(string.Empty));
             Assert.Throws<ArgumentException>(() => factory.CreateDevice(" "));
         }
 
-        
+
         [Test()]
         public void CreateDevice_PutNotExistedModel_ThrowClassNotFoundException()
         {
-            DeviceFactory factory = new XiaomiDeviceFactory();
+            IDeviceFactory factory = new XiaomiDeviceFactory();
 
             Assert.Throws<ClassNotFoundException>(() => factory.CreateDevice("XYZ"));
         }
@@ -35,7 +28,7 @@ namespace Samples.Tests
         [Test()]
         public void CreateDevice_PutCorrectModel_True()
         {
-            DeviceFactory factory = new XiaomiDeviceFactory();
+            IDeviceFactory factory = new XiaomiDeviceFactory();
 
             var device = factory.CreateDevice(MCCGQ11LM.ModelName);
 

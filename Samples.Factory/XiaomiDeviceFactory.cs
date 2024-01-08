@@ -3,7 +3,7 @@ using Samples.Factory.Exception;
 
 namespace Samples.Factory
 {
-    public class XiaomiDeviceFactory : DeviceFactory
+    public class XiaomiDeviceFactory : IDeviceFactory
     {
         public BaseDevice CreateDevice(string model)
         {

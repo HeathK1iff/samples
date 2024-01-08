@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Samples.Factory\Samples.Factory.csproj" />
+    <ProjectReference Include="..\Samples.NullObject\Samples.NullObject.csproj" />
     <ProjectReference Include="..\Samples.TemplateMethod\Samples.TemplateMethod.csproj" />
   </ItemGroup>
 

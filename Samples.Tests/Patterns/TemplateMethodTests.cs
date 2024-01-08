@@ -1,11 +1,10 @@
-﻿using NUnit.Framework;
+﻿using Samples.TemplateMethod;
 
-namespace Samples.TemplateMethod.Tests
+namespace Samples.Tests.Patterns
 {
     [TestFixture()]
-    public class DeviceReportTests
+    public class TemplateMethodTests
     {
-
         [Test()]
         public void GenerateReport_MakeReport_True()
         {
