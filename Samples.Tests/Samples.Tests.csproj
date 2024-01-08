@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
+    <PackageReference Include="Moq" Version="4.20.70" />
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
     <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
@@ -20,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Samples.Factory\Samples.Factory.csproj" />
     <ProjectReference Include="..\Samples.NullObject\Samples.NullObject.csproj" />
+    <ProjectReference Include="..\Samples.Observer\Samples.Observer.csproj" />
     <ProjectReference Include="..\Samples.TemplateMethod\Samples.TemplateMethod.csproj" />
   </ItemGroup>
 
