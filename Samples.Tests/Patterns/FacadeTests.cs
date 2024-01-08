@@ -3,7 +3,7 @@
 namespace Samples.Tests.Patterns
 {
     [TestFixture()]
-    public class JsonFacadeTests
+    public class FacadeTests
     {
         [Test()]
         public void ToJsonTest()
