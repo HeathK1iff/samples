@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Factory", "Samples.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Tests", "Samples.Tests\Samples.Tests.csproj", "{3EF43733-3FD9-4AED-804C-AA6E60E43010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.TemplateMethod", "Samples.TemplateMethod\Samples.TemplateMethod.csproj", "{09EF1494-F152-4BF5-B8B3-FA9A6B39DA74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.TemplateMethod", "Samples.TemplateMethod\Samples.TemplateMethod.csproj", "{09EF1494-F152-4BF5-B8B3-FA9A6B39DA74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.NullObject", "Samples.NullObject\Samples.NullObject.csproj", "{3A71EE9E-DAA3-47E1-ABFB-A2445BDB4086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.NullObject", "Samples.NullObject\Samples.NullObject.csproj", "{3A71EE9E-DAA3-47E1-ABFB-A2445BDB4086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Observer", "Samples.Observer\Samples.Observer.csproj", "{FEC08B78-57BF-43A3-8AC4-5EC968D28B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Observer", "Samples.Observer\Samples.Observer.csproj", "{FEC08B78-57BF-43A3-8AC4-5EC968D28B4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Mediator", "Samples.Mediator\Samples.Mediator.csproj", "{300F06CE-E8C1-44D5-BDA7-0A653506B146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Mediator", "Samples.Mediator\Samples.Mediator.csproj", "{300F06CE-E8C1-44D5-BDA7-0A653506B146}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Facade", "Samples.Facade\Samples.Facade.csproj", "{56961AFE-0E44-4277-A5F9-7541B02F3CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Facade", "Samples.Facade\Samples.Facade.csproj", "{56961AFE-0E44-4277-A5F9-7541B02F3CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Singleton", "Samples.Singleton\Samples.Singleton.csproj", "{89832E79-7C57-41F1-9F00-BF55F7C6F993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Singleton", "Samples.Singleton\Samples.Singleton.csproj", "{89832E79-7C57-41F1-9F00-BF55F7C6F993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Composite", "Samples.Composite\Samples.Composite.csproj", "{1A1202B5-778C-45FE-A7D5-80A466D7BC2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Composite", "Samples.Composite\Samples.Composite.csproj", "{1A1202B5-778C-45FE-A7D5-80A466D7BC2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Adapter", "Samples.Adapter\Samples.Adapter.csproj", "{8BBACF31-4F28-4006-9F61-A7D42A460BD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{1A1202B5-778C-45FE-A7D5-80A466D7BC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A1202B5-778C-45FE-A7D5-80A466D7BC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A1202B5-778C-45FE-A7D5-80A466D7BC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
