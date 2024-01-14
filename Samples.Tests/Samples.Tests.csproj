@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Samples.Adapter\Samples.Adapter.csproj" />
+    <ProjectReference Include="..\Samples.Bridge\Samples.Bridge.csproj" />
     <ProjectReference Include="..\Samples.Composite\Samples.Composite.csproj" />
     <ProjectReference Include="..\Samples.Facade\Samples.Facade.csproj" />
     <ProjectReference Include="..\Samples.Factory\Samples.Factory.csproj" />

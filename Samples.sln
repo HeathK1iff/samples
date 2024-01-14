@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Singleton", "Sample
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Composite", "Samples.Composite\Samples.Composite.csproj", "{1A1202B5-778C-45FE-A7D5-80A466D7BC2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Adapter", "Samples.Adapter\Samples.Adapter.csproj", "{8BBACF31-4F28-4006-9F61-A7D42A460BD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Adapter", "Samples.Adapter\Samples.Adapter.csproj", "{8BBACF31-4F28-4006-9F61-A7D42A460BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Bridge", "Samples.Bridge\Samples.Bridge.csproj", "{270929D1-C62D-4B73-9234-250C7534E680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BBACF31-4F28-4006-9F61-A7D42A460BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270929D1-C62D-4B73-9234-250C7534E680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270929D1-C62D-4B73-9234-250C7534E680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270929D1-C62D-4B73-9234-250C7534E680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270929D1-C62D-4B73-9234-250C7534E680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

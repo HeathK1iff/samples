@@ -3,7 +3,7 @@
 namespace Samples.Tests.Patterns
 {
     [TestFixture()]
-    public class SigletonTests
+    public class SingletonTests
     {
         [Test()]
         public void PlusTest()
