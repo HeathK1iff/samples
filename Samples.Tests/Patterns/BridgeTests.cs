@@ -15,7 +15,7 @@ namespace Samples.Tests.Patterns
     public class BridgeTests
     {
         [Test()]
-        public void CustomerServiceClientTest()
+        public void BridgeTest()
         {
             var uriBuilder = new UriBuilder()
             {
