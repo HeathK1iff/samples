@@ -26,6 +26,7 @@
     <ProjectReference Include="..\Samples.Facade\Samples.Facade.csproj" />
     <ProjectReference Include="..\Samples.Factory\Samples.Factory.csproj" />
     <ProjectReference Include="..\Samples.Mediator\Samples.Mediator.csproj" />
+    <ProjectReference Include="..\Samples.MessageBroker\Samples.MessageBroker.csproj" />
     <ProjectReference Include="..\Samples.NullObject\Samples.NullObject.csproj" />
     <ProjectReference Include="..\Samples.Observer\Samples.Observer.csproj" />
     <ProjectReference Include="..\Samples.Singleton\Samples.Singleton.csproj" />

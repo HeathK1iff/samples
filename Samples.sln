@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Adapter", "Samples.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Bridge", "Samples.Bridge\Samples.Bridge.csproj", "{270929D1-C62D-4B73-9234-250C7534E680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Command", "Samples.Command\Samples.Command.csproj", "{09A9DBD1-3415-4A31-B67E-24CF3ABA2725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Command", "Samples.Command\Samples.Command.csproj", "{09A9DBD1-3415-4A31-B67E-24CF3ABA2725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.MessageBroker", "Samples.MessageBroker\Samples.MessageBroker.csproj", "{DE3748A3-F77E-4849-ACD7-9BE7648A53EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{09A9DBD1-3415-4A31-B67E-24CF3ABA2725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A9DBD1-3415-4A31-B67E-24CF3ABA2725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A9DBD1-3415-4A31-B67E-24CF3ABA2725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3748A3-F77E-4849-ACD7-9BE7648A53EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3748A3-F77E-4849-ACD7-9BE7648A53EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3748A3-F77E-4849-ACD7-9BE7648A53EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3748A3-F77E-4849-ACD7-9BE7648A53EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
