@@ -22,6 +22,7 @@
     <ProjectReference Include="..\Samples.Adapter\Samples.Adapter.csproj" />
     <ProjectReference Include="..\Samples.Async\Samples.Async.csproj" />
     <ProjectReference Include="..\Samples.Bridge\Samples.Bridge.csproj" />
+    <ProjectReference Include="..\Samples.Builder\Samples.Builder.csproj" />
     <ProjectReference Include="..\Samples.Command\Samples.Command.csproj" />
     <ProjectReference Include="..\Samples.Composite\Samples.Composite.csproj" />
     <ProjectReference Include="..\Samples.Facade\Samples.Facade.csproj" />

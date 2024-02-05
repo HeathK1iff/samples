@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Command", "Samples.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.MessageBroker", "Samples.MessageBroker\Samples.MessageBroker.csproj", "{DE3748A3-F77E-4849-ACD7-9BE7648A53EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Async", "Samples.Async\Samples.Async.csproj", "{8B1E2135-C1B8-4597-9842-6B83253D3E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Async", "Samples.Async\Samples.Async.csproj", "{8B1E2135-C1B8-4597-9842-6B83253D3E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Builder", "Samples.Builder\Samples.Builder.csproj", "{E67066ED-B445-488D-9B24-B3DE5AE04609}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{8B1E2135-C1B8-4597-9842-6B83253D3E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B1E2135-C1B8-4597-9842-6B83253D3E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B1E2135-C1B8-4597-9842-6B83253D3E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67066ED-B445-488D-9B24-B3DE5AE04609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67066ED-B445-488D-9B24-B3DE5AE04609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67066ED-B445-488D-9B24-B3DE5AE04609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67066ED-B445-488D-9B24-B3DE5AE04609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

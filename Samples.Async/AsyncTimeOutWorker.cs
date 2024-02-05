@@ -2,11 +2,11 @@
 
 namespace Samples.Async
 {
-    public class AsyncTimeOutReader
+    public class AsyncTimeOutWorker : IAsyncTimeOutWorker
     {
         private const int TimeOfWork = 10000;
 
-        public async Task<int> SomeWork10SecAsync(int millisecondsReadTimeOut)
+        public async Task<int> SomeWork10SecAsync(TimeSpan millisecondsReadTimeOut)
         {
             using CancellationTokenSource cancellationTokenSource = new CancellationTokenSource(millisecondsReadTimeOut);
             Task<int> task = CreateTaskWithSomeWork(999);

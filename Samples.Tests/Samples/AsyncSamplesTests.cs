@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Moq;
+using Newtonsoft.Json.Linq;
 using Samples.Async;
 using System.Diagnostics;
 
@@ -8,14 +9,14 @@ namespace Samples.Tests.Async
     public class AsyncSamplesTests
     {
         [Test]
-        public void ReadAsync_ReadWith6SecReadTimeOut_True()
+        public void SomeWork10SecAsync_ReadWith6SecReadTimeOut_Throw()
         {
-            var reader = new AsyncTimeOutReader();
+            var worker = new AsyncTimeOutWorker();
             Assert.Throws<TimeoutException>(() => {
 
                 try
                 {
-                    int result = reader.SomeWork10SecAsync((int) TimeSpan.FromSeconds(6).TotalMilliseconds).Result;
+                    int result = worker.SomeWork10SecAsync(TimeSpan.FromSeconds(6)).Result;
                 } catch (AggregateException ex)
                 {
                     throw ex.InnerException ?? new Exception();
@@ -24,17 +25,40 @@ namespace Samples.Tests.Async
             });
         }
         [Test]
-        public void ReadAsync_ReadWith11SecReadTimeOut_True()
+        public async Task SomeWork10SecAsync_ReadWith11SecReadTimeOut_True()
         {
-            var reader = new AsyncTimeOutReader();
+            var reader = new AsyncTimeOutWorker();
 
             Stopwatch sw = new Stopwatch();
             sw.Start(); 
-            int value = reader.SomeWork10SecAsync((int) TimeSpan.FromSeconds(12).TotalMilliseconds).Result;
+            int value = await reader.SomeWork10SecAsync(TimeSpan.FromSeconds(12));
             sw.Stop();
 
             Assert.IsTrue(value == 999);
             Assert.IsTrue(sw.ElapsedMilliseconds > TimeSpan.FromSeconds(10).Milliseconds);
+        }
+
+        [Test]
+        public async Task GetWorkDataAsync_ReturnValueFromInterface_True()
+        {
+            var mock = new Mock<IAsyncTimeOutWorker>();
+            mock.Setup(f=>f.SomeWork10SecAsync(It.IsAny<TimeSpan>())).Returns(Task<int>.FromResult(999));
+            var service = new TimeOutService(mock.Object);
+
+            int result = await service.GetWorkDataAsync();
+
+            Assert.IsTrue(result == 999);
+        }
+
+        [Test]
+        public async Task GetWorkDataAsync_ThrowTimeOutExceptionFromInterface_Throw()
+        {
+            var mock = new Mock<IAsyncTimeOutWorker>();
+            mock.Setup(f => f.SomeWork10SecAsync(It.IsAny<TimeSpan>()))
+                .Returns(Task<int>.FromException<int>(new TimeoutException()));
+            var service = new TimeOutService(mock.Object);
+           
+            Assert.Throws<AggregateException>(() => service.GetWorkDataAsync().Wait());
         }
 
     }
