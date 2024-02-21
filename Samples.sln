@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UseCases", "UseCases", "{22
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.ConsoleDI", "Samples.ConsoleDI\Samples.ConsoleDI.csproj", "{7871C09F-D187-4097-A975-A3D674960EC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Async.Progress", "Samples.Async.Progress\Samples.Async.Progress.csproj", "{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{7871C09F-D187-4097-A975-A3D674960EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7871C09F-D187-4097-A975-A3D674960EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7871C09F-D187-4097-A975-A3D674960EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +135,7 @@ Global
 		{8B1E2135-C1B8-4597-9842-6B83253D3E48} = {22FCE3DE-730A-4237-97C9-76799B015FD8}
 		{E67066ED-B445-488D-9B24-B3DE5AE04609} = {DEE6FBCD-387E-4C8A-93E3-31856BF2811F}
 		{7871C09F-D187-4097-A975-A3D674960EC8} = {22FCE3DE-730A-4237-97C9-76799B015FD8}
+		{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4} = {22FCE3DE-730A-4237-97C9-76799B015FD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F40B22A-B5F9-48CD-897D-6822BB26FF6C}
