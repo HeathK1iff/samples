@@ -37,11 +37,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{DE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UseCases", "UseCases", "{22FCE3DE-730A-4237-97C9-76799B015FD8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.ConsoleDI", "Samples.ConsoleDI\Samples.ConsoleDI.csproj", "{7871C09F-D187-4097-A975-A3D674960EC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.GenericHost", "Samples.GenericHost\Samples.GenericHost.csproj", "{7871C09F-D187-4097-A975-A3D674960EC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Async.Progress", "Samples.Async.Progress\Samples.Async.Progress.csproj", "{7EC2DDAC-05FD-469C-A91B-29292DE8ABD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Logging", "Samples.Logging\Samples.Logging.csproj", "{833F5ACE-7CC8-4214-ADD7-8A0FC1A4E3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.DI", "Samples.DI\Samples.DI.csproj", "{57FE928C-2C99-46A0-9A56-D6E47DADE2DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{833F5ACE-7CC8-4214-ADD7-8A0FC1A4E3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833F5ACE-7CC8-4214-ADD7-8A0FC1A4E3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{833F5ACE-7CC8-4214-ADD7-8A0FC1A4E3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FE928C-2C99-46A0-9A56-D6E47DADE2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FE928C-2C99-46A0-9A56-D6E47DADE2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FE928C-2C99-46A0-9A56-D6E47DADE2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FE928C-2C99-46A0-9A56-D6E47DADE2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
