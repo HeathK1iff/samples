@@ -49,6 +49,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Auth.Cookies", "Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Auth.Jwt", "Samples.Auth.Jwt\Samples.Auth.Jwt.csproj", "{CA4496B0-EE9F-4ACE-A462-56E010AA5E48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Async.AsyncFactoryMethod", "Samples.Async.AsyncFactoryMethod\Samples.Async.AsyncFactoryMethod.csproj", "{BBE0F2FE-1104-462D-88F1-ADE6243FC49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Async.InitializationPattern", "Samples.Async.InitializationPattern\Samples.Async.InitializationPattern.csproj", "{5D7E5765-11EC-414C-832E-B4E5A9F55655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Async.SemaphoreSlim", "Samples.Async.SemaphoreSlim\Samples.Async.SemaphoreSlim.csproj", "{8A626CFA-C57F-43AD-9E5C-E93EB9CBD779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Thread.Semaphore", "Samples.Thread.Semaphore\Samples.Thread.Semaphore.csproj", "{614DBE73-15AE-47B5-94AA-6E092A29A0D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +147,22 @@ Global
 		{CA4496B0-EE9F-4ACE-A462-56E010AA5E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA4496B0-EE9F-4ACE-A462-56E010AA5E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA4496B0-EE9F-4ACE-A462-56E010AA5E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE0F2FE-1104-462D-88F1-ADE6243FC49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE0F2FE-1104-462D-88F1-ADE6243FC49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE0F2FE-1104-462D-88F1-ADE6243FC49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE0F2FE-1104-462D-88F1-ADE6243FC49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7E5765-11EC-414C-832E-B4E5A9F55655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7E5765-11EC-414C-832E-B4E5A9F55655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E5765-11EC-414C-832E-B4E5A9F55655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E5765-11EC-414C-832E-B4E5A9F55655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A626CFA-C57F-43AD-9E5C-E93EB9CBD779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A626CFA-C57F-43AD-9E5C-E93EB9CBD779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A626CFA-C57F-43AD-9E5C-E93EB9CBD779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A626CFA-C57F-43AD-9E5C-E93EB9CBD779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614DBE73-15AE-47B5-94AA-6E092A29A0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614DBE73-15AE-47B5-94AA-6E092A29A0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614DBE73-15AE-47B5-94AA-6E092A29A0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614DBE73-15AE-47B5-94AA-6E092A29A0D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
